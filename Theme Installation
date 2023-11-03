@@ -4,7 +4,7 @@ main() {
     cd /Applications/MacSploit.app/Contents/Resources/CodeViewer_CodeViewer.bundle/Contents/Resources/ace.bundle
     echo -e "Installing Theme..."
     curl "https://raw.githubusercontent.com/MoonP13/Moon/main/StreetViewThemeMS" -o "./theme-tomorrow_night.js"
-    echo -e "Theme has installation is now complete!"
+    echo -e "Theme installation is now complete!"
 }
 
 main
