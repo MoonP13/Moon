@@ -4,7 +4,7 @@ define("ace/theme/tomorrow_night", ["require", "exports", "module", "ace/lib/dom
   t.cssText = `
     .ace-tomorrow_night-theme .ace_gutter {
       background: transparent;
-      color: #ffccf9; 
+      color: #2f3b46;  
     }
     
     .ace-tomorrow_night-theme .ace_print-margin {
@@ -13,9 +13,9 @@ define("ace/theme/tomorrow_night", ["require", "exports", "module", "ace/lib/dom
     }
     
     .ace-tomorrow_night-theme {
-      background: url('https://media.discordapp.net/attachments/1116609683571089498/1170139678469533737/anime-girl-girly-1366x768-9793.png?ex=6557f47f&is=65457f7f&hm=5d238b67d99c066b03220be076a10e7331e7dc63226d755d79762d81495896d4&=&width=1510&height=849') no-repeat center center fixed;
+      background: url('https://media.discordapp.net/attachments/1119713089667989565/1122231342889971792/8451e74377c686fa3fe7abe78a5a3a49.gif?width=971&height=485') no-repeat center center fixed;
       background-size: cover;
-      color: #b3bcfc; 
+      color: #806575;
       text-shadow: none;
       border: none;
     }
@@ -70,11 +70,11 @@ define("ace/theme/tomorrow_night", ["require", "exports", "module", "ace/lib/dom
     .ace-tomorrow_night-theme .ace_meta,
     .ace-tomorrow_night-theme .ace_storage,
     .ace-tomorrow_night-theme .ace_storage.ace_type {
-      color: #fdcad3;
+      color: #445863;
     }
     
     .ace-tomorrow_night-theme .ace_keyword.ace_operator {
-      color: #fdcad3; 
+      color: ; #445863 
     }
     
     .ace-tomorrow_night-theme .ace_constant.ace_character,
@@ -83,20 +83,20 @@ define("ace/theme/tomorrow_night", ["require", "exports", "module", "ace/lib/dom
     .ace-tomorrow_night-theme .ace_keyword.ace_other.ace_unit,
     .ace-tomorrow_night-theme .ace_support.ace_constant,
     .ace-tomorrow_night-theme .ace_variable.ace_parameter {
-      color: #fdcad3;  
+      color: #445863;
     }
     
     .ace-tomorrow_night-theme .ace_constant.ace_other {
-      color: #30414a;
+      color: #8a5fd9;
     }
     
     .ace-tomorrow_night-theme .ace_invalid {
-      color: #30414a;
+      color: #8a5fd9;
       background-color: transparent;
     }
     
     .ace-tomorrow_night-theme .ace_invalid.ace_deprecated {
-      color: #30414a;
+      color: #8a5fd9;
       background-color: transparent;
     }
     
@@ -105,17 +105,8 @@ define("ace/theme/tomorrow_night", ["require", "exports", "module", "ace/lib/dom
       border-color: transparent;
       box-shadow: none;
     }
-    
-    
-    .ace-tomorrow_night-theme {
-      text-shadow: 
-        -0.5px -0.5px 0 #fef2fd,
-        0.4px -0.4px 0 #fbfcfc,
-        -0.5px 0.5px 0 #fef2fd,
-        0.4px 0.4px 0 #fbfcfc;
-    }
   `;
-
+  
   var r = e("../lib/dom");
   r.importCssString(t.cssText, t.cssClass);
 });
